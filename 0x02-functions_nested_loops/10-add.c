@@ -3,7 +3,8 @@
 /**
  * add - main function
  *
- * @a and b: input variables
+ * @a: input variable
+ * @b: input variable
  */
 int add(int a, int b)
 {
