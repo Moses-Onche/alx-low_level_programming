@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- *
  * jack_bauer - main function
  *
- * @h - hours
- * @m - minutes
- *
- * Return: currently 0
+ * 
+ * 
+ * 
  */
 void jack_bauer(void)
 {
