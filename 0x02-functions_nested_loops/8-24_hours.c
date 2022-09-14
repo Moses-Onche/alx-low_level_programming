@@ -3,9 +3,6 @@
 /**
  * jack_bauer - main function
  *
- * 
- * 
- * 
  */
 void jack_bauer(void)
 {
