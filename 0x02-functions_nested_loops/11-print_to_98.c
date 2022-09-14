@@ -7,14 +7,13 @@
  */
 void print_to_98(int n)
 {
-	int a;
 	int b = 0;
 
-	for (a = 0; a <= 1024; a++)
+	for (; n <= 1024; n++)
 	{
-		if (a % 3 == 0 || a % 5 == 0)
+		if (n % 3 == 0 || n % 5 == 0)
 		{
-			b += a;
+			b += n;
 		}
 
 	}
