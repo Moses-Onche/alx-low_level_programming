@@ -5,6 +5,8 @@
  *
  * @a: input variable
  * @b: input variable
+ *
+ * Return: result variable
  */
 int add(int a, int b)
 {
