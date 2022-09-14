@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table
+ * times_table - main function
  *
  */
 void times_table(void)
@@ -14,7 +14,7 @@ void times_table(void)
 		{
 			int prod = i * j;
 
-			if (j==0)
+			if (j == 0)
 			{
 				_putchar('0');
 			} else if (prod <= 9)
