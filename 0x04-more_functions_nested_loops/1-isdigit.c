@@ -5,7 +5,7 @@
  *
  * @c: character to determine
  *
- * Return: gives boolean
+ * Return: 1 if digit, 0 if not digit
  */
 int _isdigit(int c)
 {
