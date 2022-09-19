@@ -3,8 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: assign the value 98 to pointer *n
- * @n: input argument
+ * reset_to_98 - resets value to 98
+ * @n: pointer integer
  * Return: always 0
  */
 void reset_to_98(int *n)
