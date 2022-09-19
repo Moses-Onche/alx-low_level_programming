@@ -3,6 +3,7 @@
 /**
  * main - Entry point
  *
+ * Description: assign the value 98 to pointer *n
  * @n: input argument
  * Return: always 0
  */
