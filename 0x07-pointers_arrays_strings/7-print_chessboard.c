@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_chessboard - Literally
- * 
+ *
  * @a: prints symbols for boxes initials for pieces
  * Return: 0
  */
