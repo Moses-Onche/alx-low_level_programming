@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_chessboard - Print chessboard form
+ * print_chessboard - board to print
  *
- * @a: prints symbols for boxes initials for pieces
- * Return: nothing
+ * @a: prints things
+ * Return: returns crap
  */
 
 void print_chessboard(char (*a)[8])
