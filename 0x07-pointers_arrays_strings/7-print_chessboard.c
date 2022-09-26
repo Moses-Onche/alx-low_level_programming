@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * print_chessboard - Literally
+ * print_chessboard - Print chessboard form
  *
  * @a: prints symbols for boxes initials for pieces
  * Return: nothing
  */
+
 void print_chessboard(char (*a)[8])
 {
 	int i;
