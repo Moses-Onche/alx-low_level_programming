@@ -3,10 +3,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 #define UNUSED(x) (void)(x)
-
 /**
  * StringCheck - Check if entry is a string
- *
  * @s: string to check
  * Return: boolean value
  */
@@ -23,10 +21,8 @@ int StringCheck(char *s)
 	}
 	return (1);
 }
-
 /**
  * main - Entry point
- *
  * @argc: argument c
  * @argv: vector of arguments
  * Return: always 0
@@ -43,8 +39,7 @@ int main(int argc, char *argv[])
 			if (StringCheck(argv[i]))
 			{
 				result += atoi(argv[i]);
-			}
-			else
+			} else
 			{
 				printf("Error\n");
 				return (1);
@@ -52,8 +47,7 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", result);
 		return (0);
-	}
-	else
+	} else
 	{
 		printf("%d\n", 0);
 		return (1);
