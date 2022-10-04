@@ -1,8 +1,8 @@
 /**
- * _strpbrk - finds string
+ * _strpbrk - Search string
+ *
  * @s: string to find stuff
  * @accept: accepting arrays
- *
  * Return: returns new value
  */
 char *_strpbrk(char *s, char *accept)

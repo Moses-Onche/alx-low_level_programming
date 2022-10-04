@@ -1,15 +1,20 @@
 #include "main.h"
+
 /**
- * _isupper - checks if uppercase
- * @c: character to check
+ * _memset - Set memory to array
  *
- * Return: gives 1 or 0
+ * @s: array to set
+ * @b: value to set it as
+ * @n: amount of times
+ * Return: char s
  */
-int _isupper(int c)
+char *_memset(char *s, char b, unsigned int n)
 {
-	if (c >= 'A' && c <= 'Z')
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
 	{
-	return (1);
+		s[i] = b;
 	}
-	return (0);
+	return (s);
 }
