@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * array_range - creates an array of integers
@@ -18,5 +19,6 @@ int *array_range(int min, int max)
 		return (0);
 	while (i <= max - min)
 		arr[i++] = t++;
+
 	return (arr);
 }
