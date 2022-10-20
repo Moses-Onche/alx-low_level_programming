@@ -1,26 +1,11 @@
-#include "lists.h"
+#include <stdio.h>
+void myStartupFun(void)__attribute__ ((constructor));
 
 /**
- * print_list - check the code for Holberton School students.
- * @h: name of the list
- * Return: the number of nodes.
+ * myStartupFun - Function that runs before main
  */
-size_t print_list(const list_t *h)
+void myStartupFun(void)
 {
-	int count = 0;
-
-	while (h)
-	{
-		if (h->str == NULL)
-		{
-			printf("[0] (nil)\n");
-		}
-		else
-		{
-		printf("[%d] %s\n", h->len, h->str);
-		}
-		count++;
-		h = h->next;
-	}
-	return (count);
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
