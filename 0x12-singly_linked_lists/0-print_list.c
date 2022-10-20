@@ -1,10 +1,10 @@
 #include "lists.h"
 /**
- *  * print_list - prints all elements of a list
- *   * @h: the pointer that points to the struct.
- *    *
- *     * Return: number of nodes.
- *      */
+ * print_list - prints all elements of a list
+ * @h: the pointer that points to the struct.
+ *
+ * Return: number of nodes.
+ */
 size_t print_list(const list_t *h)
 {
 	int numb_node = 0;
