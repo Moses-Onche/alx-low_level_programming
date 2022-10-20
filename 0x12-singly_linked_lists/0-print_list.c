@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * print_list - prints the elements of a list
- * @h: param list
- * Return: struct type
+ * print_list - print all the elements of a list
+ * @h: name of the list
+ * Return: the number of nodes.
  */
 size_t print_list(const list_t *h)
 {
@@ -17,7 +17,7 @@ size_t print_list(const list_t *h)
 		}
 		else
 		{
-			printf("[%d] %s\n", h->len, h->str);
+		printf("[%d] %s\n", h->len, h->str);
 		}
 		count++;
 		h = h->next;
