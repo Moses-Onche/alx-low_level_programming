@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * free_listint2 - this function frees a list
  * @head: the pointer to the struct
