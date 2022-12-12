@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * div - divides two integers
- * @a: integer to be divided
- * @b: integer to be divided
- * Return: returns the division of a and b
+ * mul - multiplies two integers
+ * @a: integer to be multiplied
+ * @b: integer to be multiplied
+ * Return: returns the multiplication of a and b
  */
 int mul(int a, int b)
 {

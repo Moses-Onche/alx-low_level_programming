@@ -1,10 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int add(int, int);
-int sub(int, int);
-int div(int, int);
-int mul(int, int);
-int mod(int, int);
+int add(int a, int b);
+int sub(int a, int b);
+int div(int a, int b);
+int mul(int a, int b);
+int mod(int a, int b);
 
 #endif

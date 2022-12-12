@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * div - divides two integers
- * @a: integer to be divided
- * @b: integer to be divided
- * Return: returns the division of a and b
+ * sub - subtracts two integers
+ * @a: integer to be subtracted
+ * @b: integer to be subtracted
+ * Return: returns the subtraction of a and b
  */
 int sub(int a, int b)
 {
-	return (a / b);
+	return (a - b);
 }
