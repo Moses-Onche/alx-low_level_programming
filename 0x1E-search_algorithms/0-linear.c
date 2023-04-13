@@ -13,7 +13,7 @@ int linear_search(int *array, size_t size, int value)
 {
 	size_t a;
 
-	// Handle empty array
+	/* Handle empty array */
 	if (array == NULL)
 		return (-1);
 
