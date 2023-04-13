@@ -12,18 +12,16 @@
 int linear_search(int *array, size_t size, int value)
 {
 	size_t a;
-	a = 0;
 
 	// Handle empty array
 	if (array == NULL)
 		return (-1);
 
-	while (a < size)
+	for (a = 0; a < size; a++)
 	{
 		printf("Value checked array[%u] = [%d]\n", a, array[a]);
 		if (array[a] == value)
 			return (a);
-		a++;
 	}
 
 	return (-1);
